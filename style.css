@@ -101,3 +101,48 @@ a {
     width: 400px;
     margin-right: 60px;
 }
+
+/* content2 */
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content2-heading {
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.content2-info {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.content2-info  div{
+    width: 140px;
+}
+
+.content2-info  div img{
+    width: 140px;
+    height: 140px;
+    border: 2px solid #3882F6;
+    border-radius: 30px;
+}
+
+.content2-info  div p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content2-info .content2-pair1 {
+
+}
+
+.content2-info .content2-pair1 {
+
+}

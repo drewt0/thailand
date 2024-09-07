@@ -107,6 +107,7 @@ a {
 .content2 {
     display: flex;
     flex-direction: column;
+    height: 360px;
 }
 
 .content2-heading {
@@ -139,10 +140,30 @@ a {
     text-align: center;
 }
 
-.content2-info .content2-pair1 {
+/* content3 */
 
+.content3 {
+    background-color: #E5E7EB;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
 }
 
-.content2-info .content2-pair1 {
+.content3-quote {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+    text-align: justify;
+}
 
+.content3-by {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 140px;
 }

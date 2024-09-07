@@ -153,6 +153,7 @@ a {
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .content3-quote {
@@ -172,4 +173,53 @@ a {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 140px;
+}
+
+/* content4 */
+
+.content4 {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content4-calltoaction {
+    background-color: #3882F6;
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 160px;
+    margin-left: 160px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content4-heading {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content4-subtext {
+    color: #F9FAF8;
+    font-size: 13px;
+}
+
+.content4-button {
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    background-color: #3882F6;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.content4-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }

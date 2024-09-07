@@ -223,3 +223,19 @@ a {
     background-color: #F9FAF8;
     color: #3882F6;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
+    
+}

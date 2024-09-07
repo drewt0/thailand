@@ -133,6 +133,7 @@ a {
     height: 140px;
     border: 2px solid #3882F6;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 .content2-info  div p{
